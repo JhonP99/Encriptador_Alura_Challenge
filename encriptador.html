@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css"/>
+    <script src="logica.js" language="javascript" type="text/javascript"></script>
+    <title>Encriptador // Jhon P </title>
+</head>
+<body>
+    <header> 
+        <h1>Encriptador de mensajes</h1>
+    </header>
+    <section class="container">
+        <article >
+            <h4>Solo debe contener minusculas, los numeros y caracteres especiales son invalidos</h4>
+            <input class="txt_area" id="mensaje" type="text" placeholder="Escribe tu mensaje aqui">
+            <input onclick="encriptar()" id="encriptar"class="Boton" type="button" value="Encriptar">
+            <input onclick="desencriptar()" id="desencriptar" class="Boton" type="button" value="Desencriptar">
+        </article>
+        <article >
+            <h4>Mensaje Encriptado</h4>
+            <input class="txt_area" id="mensaje2" type="text" placeholder="Tu Mensaje">    
+            <input onclick="cortar()" id="copy" class="Boton" type="button" value="Copiar">
+        </article>
+    </section>
+
+
+    <footer>
+        <section>
+            <h3>Challenge ALURA Oracle One - latam</h3>
+            <h4> &copy Copyrigth 2022 - Creado por <a href="https://github.com/JhonP99"> Jhon Paz</a></h4>
+        </section>
+    </footer>    
+</body>
+</html>

@@ -1,0 +1,71 @@
+html{
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background-color:#efefef ;
+    margin: 0; 
+    
+}
+
+header{
+    background-color: rgb(223,254,218);
+    color:rgb(36, 206, 6);
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom:solid 1rem rgb(36, 206, 6);
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+    padding: 4rem 0;
+
+}
+
+section article{
+    background-color: rgb(223,254,218);
+    margin: 1rem 0;
+    border: solid 5px rgb(36, 206, 6) ;
+    border-radius: 2rem;
+    padding: 0.2rem 0;
+}
+
+section article h4, .txt_area{
+    margin: 1rem;
+}
+
+.txt_area{
+    background-color: rgb(223,254,218);
+    border-color: transparent;
+    border-bottom: solid 0.1rem black;
+}
+.txt_area:focus{
+    outline: none;
+}
+
+.Boton{
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(36, 206, 6);
+    border-radius: 0.25rem;
+}
+    
+.Boton:hover {
+    background-color: rgb(36, 206, 6);
+    color: white;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.5);
+}
+
+
+
+footer{
+    text-align:center ;
+    background-color:rgb(223,254,218) ;
+    padding: 0.3rem;
+    color: #4CAF50 ;
+    border-top: solid 0.5rem rgb(36, 206, 6) ;
+    
+}
